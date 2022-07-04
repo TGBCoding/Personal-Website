@@ -1,0 +1,22 @@
+:root {
+  --white: #FFFFFF;
+  --black: #000000;
+  --dark-grey: #1D1B1B;
+  --light-grey: #EFEBEB;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fontColor);
+  font-family: Helvetica;
+}
+
+.light-theme {
+  --bg: var(--light-grey);
+  --fontColor: var(--black);
+}
+
+.dark-theme {
+  --bg: var(--dark-grey);
+  --fontColor: var(--light-grey);
+}
